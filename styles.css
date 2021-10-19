@@ -14,8 +14,9 @@ a {
   text-decoration: none;
   color: #8B8B8B;
 }
-p {
-  color: #8B8B8B;
+ a:hover {
+  color: purple;
+  transform: scale(1.05);
 }
 .card-one, .card-two {
   width: 250px;
@@ -64,4 +65,16 @@ p {
     justify-content: center;
     align-items: center;
     margin: 15px;
+}
+
+@media (max-width: 999px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+  }
+  .card-one, .card-two {
+    margin: 20px;
+  }
+
 }
