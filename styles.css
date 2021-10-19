@@ -17,11 +17,19 @@ a {
 p {
   color: #8B8B8B;
 }
-.card-one, .card-two, .card-three {
+.card-one, .card-two {
   width: 250px;
   height: 165px;
   box-shadow: 0px 0px 10px gray;
   border-radius: 5px;
+}
+.card-one:hover {
+  transform: scale(1.05);
+  background-color: #F5F5F5;
+}
+.card-two:hover {
+  transform: scale(1.05);
+  background-color: #F5F5F5;
 }
 .chromatic {
   width: 50px;
@@ -30,7 +38,7 @@ p {
 }
 .meat-and-potatoes {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-items: top;
   height: 110px;
 }
@@ -42,13 +50,18 @@ p {
   display: flex;
   justify-content: space-around;
   align-items: center;
-
+}
+.darker {
+  width: 30px;
+  height: 30px;
 }
 .icon-2 { 
     background-color: #DDDAE5;
     border-radius: 50%;
-    height: 75px;
+    height: 50px;
+    width: 50px;
     display: flex;
     justify-content: center;
+    align-items: center;
     margin: 15px;
 }
